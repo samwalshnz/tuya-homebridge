@@ -24,7 +24,22 @@
                 "countryCode": 86,
                 "debug":false
               }
+        },
+        {
+            "platform": "ElectricBlanketPlatform",
+            "name": "ElectricBlanketPlatform",
+            "options":
+              {
+                "username": "",
+                "password": "",
+                "accessId": "",
+                "accessKey": "",
+                "lang": "en",
+                "projectType": "2",
+                "appSchema": "tuyaSmart",
+                "countryCode": 86,
+                "debug":false
+              }
         }
     ]
 }
-

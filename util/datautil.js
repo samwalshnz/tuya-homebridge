@@ -8,6 +8,8 @@ class DataUtil {
                 if (typeof map.value === 'boolean') {
                     subTypeArr.push(map.code)
                 } 
+            } else if (map.code.indexOf("level_1") != -1 || map.code.indexOf("level_2") != -1) {
+                subTypeArr.push(map.code)
             }
         }
         return {
